@@ -1,0 +1,28 @@
+# App
+htdocs/content/plugins/*
+!htdocs/content/plugins/.gitkeep
+htdocs/content/mu-plugins/*
+!htdocs/content/mu-plugins/.gitkeep
+!htdocs/content/mu-plugins/oxboot-loader.php
+htdocs/content/oxboot-plugins/*
+!htdocs/content/oxboot-plugins/.gitkeep
+htdocs/content/uploads/*
+!htdocs/content/uploads/.gitkeep
+htdocs/content/upgrade
+
+# Default Theme
+htdocs/content/themes/theme/dist/
+
+# Composer
+vendor/
+
+# WordPress
+htdocs/wp/
+htdocs/.htaccess
+
+# Dotenv
+.env
+
+# Laravel Mix
+node_modules/
+mix-manifest.json
